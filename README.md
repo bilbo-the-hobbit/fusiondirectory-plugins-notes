@@ -41,6 +41,6 @@ fusiondirectory-setup --update-cache --update-locales
 
 see screenshoot
 
-!(example.png)
+![screen of notes](example.png)
 
 
