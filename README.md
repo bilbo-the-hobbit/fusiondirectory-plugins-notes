@@ -10,7 +10,37 @@ FusionDirectory could became a simple Configuration Management DataBase and ther
 
 Well it's a very simple plugin but it allow to add some information wich are horodated 
 
-## todo
+## Todo
 We need to fetch the current user as the author of the notes
 We need to study a way to add some rich text ( like url, bold text, or bullet point )à
 We need to  provide a way to disable removing and editing line .
+
+## How to install
+
+`git https://github.com/gallak/fusiondirectory-plugins-notes.git
+mv fusiondirectory-plugins-notes notes`
+
+### Installation of ldap schema
+
+`ldap-schema-manager -i ./notes/contrib/schema/notes-fd.schema`
+
+### Installation of plugin
+
+```fusiondirectory-setup --set-fd_home=/usr/local/share/fusiondirectory --install-plugins
+Setting fd_home to /usr/share/fusiondirectory
+Installing FusionDirectory's plugins
+Where is your plugins archive or folder?:
+<complete current path>            
+Available plugins:
+1:notes
+
+fusiondirectory-setup --update-cache --update-locales
+```
+
+### usage
+
+see screenshoot
+
+!(example.png)
+
+
