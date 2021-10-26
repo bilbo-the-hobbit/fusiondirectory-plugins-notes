@@ -1,0 +1,19 @@
+##
+## netdisco-fd.schema - Needed by Fusion Directory for managing netdisco configuration
+## OID 125
+
+# Attributes
+attributetype ( 1.3.6.1.4.1.38414.126.1.1 NAME 'fdNotes'
+        DESC 'FusionDirectory - Notes Attributes'
+        EQUALITY caseIgnoreIA5Match
+        SUBSTR caseIgnoreSubstringsMatch
+        SYNTAX 1.3.6.1.4.1.1466.115.121.1.26 )
+
+# Object Class
+objectclass (1.3.6.1.4.1.38414.126.2.1 NAME 'fdNotesObject'
+        SUP top AUXILIARY
+        DESC 'FusionDirectory - Notes ObjectClass'
+        MUST ( )
+        MAY (fdNotes))
+
+
