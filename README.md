@@ -1,18 +1,17 @@
 # fusiondirectory-plugins-notes
 
-This is a plugin for FusionDirectory that add some informations about each ldap entry, it's another way to add some information in another place of Description fields
+This is a plugin for FusionDirectory that add some informations about each ldap entry.
+Its useful because the description field is only a text field without any history
 
 ## Why this plugin ?
 
-It was designed to system features of Fusiondirectoy.
-FusionDirectory could became a simple Configuration Management DataBase and there was a lack of information like the lifcycle of component like
-"2021-08-30 : I restart server due to CPU overload"
-
-Well it's a very simple plugin but it allow to add some information wich are horodated 
+It was designed to be a light change management system for Fusiondirectoy.
+FusionDirectory lack a way to get the history in the lifcycle of component.
+For example : "2021-08-30 : I restarted the server due to CPU overload"
 
 ## Todo
 We need to fetch the current user as the author of the notes
-We need to study a way to add some rich text ( like url, bold text, or bullet point )à
+We need to study a way to add some rich text ( like url, bold text, or bullet point )
 We need to  provide a way to disable removing and editing line .
 
 ## How to install
