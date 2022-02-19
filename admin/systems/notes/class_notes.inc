@@ -41,6 +41,7 @@ class notes extends simplePlugin
 
   static function getAttributesInfo (): array
   {
+    $ui = get_userinfo();
     return [
       'notes' => [
         'name'  => _('Notes'),
@@ -51,13 +52,12 @@ class notes extends simplePlugin
               _('Use this to hide some menu entry to specific groups of users'),
               'fdNotes',
               [
-		new HiddenAttribute('fdNotes_date',TRUE,date("Y-m-d h:i:s")),
+                new HiddenAttribute('fdNotes_date',TRUE,date("Y-m-d h:i:s")),
                 new TextAreaAttribute(
                   _('Notes'), _('Notes'),
                   'Notes', TRUE
                 ),
-                //FIXME  how to get current connected user ?
-                new HiddenAttribute('fdNotes_author',TRUE, "Unknown"),
+                new HiddenAttribute('fdNotes_author',TRUE, $ui->uid),
               ],
               '',
               ''
