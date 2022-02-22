@@ -5,15 +5,16 @@
 # Attributes
 attributetype ( 1.3.6.1.4.1.38414.126.1.1 NAME 'fdNotes'
         DESC 'FusionDirectory - Notes Attributes'
-        EQUALITY caseIgnoreIA5Match
+        EQUALITY caseIgnoreMatch
         SUBSTR caseIgnoreSubstringsMatch
-        SYNTAX 1.3.6.1.4.1.1466.115.121.1.26 )
+        SYNTAX 1.3.6.1.4.1.1466.115.121.1.15{2048} )
+
 
 # Object Class
 objectclass (1.3.6.1.4.1.38414.126.2.1 NAME 'fdNotesObject'
         SUP top AUXILIARY
         DESC 'FusionDirectory - Notes ObjectClass'
-        MUST ( )
+        MUST ()
         MAY (fdNotes))
 
 
