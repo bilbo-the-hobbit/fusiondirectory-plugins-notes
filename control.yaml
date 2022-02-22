@@ -1,0 +1,31 @@
+information :
+  name : "notes"
+  description : "plugings which allow user to add some notes on eache FD object"
+  version : "0.1"
+  authors : ['antoine.gallavardin@free.fr']
+  status : "stable"
+  screenshotUrl:
+   - https://github.com/gallak/fusiondirectory-plugins-notes/wiki/screenshot1.png
+  logoUrl : https://github.com/gallak/fusiondirectory-plugins-notes/wiki/logo.png
+  tags : ["notes","information","plugin" ]
+  license : "GPLv2"
+  origin : "source"
+
+support :
+  provider : "community"
+  homeUrl : "https://github.com/gallak/fusiondirectory-plugins-notes"
+  ticketUrl : "https://github.com/gallak/fusiondirectory-plugins-notes/issues"
+  discussionUrl : "https://github.com/gallak/fusiondirectory-plugins-notes/wiki"
+  downloadUrl: "https://github.com/gallak/fusiondirectory-plugins-notes.tgz"
+  schemaUrl : "https://schemas.fusiondirectory.info/"
+
+requirement:
+  fdVersion : 1.4
+  phpVersion : 7.2.0
+
+content :
+  phpClassList : ['notes']
+  ldapObjectList : ['fdNotesObject']
+  ldapAttributeList : ['fdNotes']
+  fileList :
+  - './admin/systems/notes/class_notes.inc'
