@@ -29,3 +29,8 @@ content :
   ldapAttributeList : ['fdNotes']
   fileList :
   - './admin/systems/notes/class_notes.inc'
+  - './locale/en/fusiondirectory.po'
+  - './locale/fr/fusiondirectory.po'
+  - './contrib/openldap/notes-fd.schema'
+  - './html/themes/breezy/icons/16/apps/notes.png'
+  - './html/themes/breezy/icons/48/apps/notes.png'
