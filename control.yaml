@@ -7,7 +7,7 @@ information :
   screenshotUrl:
    - https://github.com/gallak/fusiondirectory-plugins-notes/wiki/screenshot1.png
   logoUrl : https://github.com/gallak/fusiondirectory-plugins-notes/wiki/logo.png
-  tags : ["notes","information","plugin" ]
+  tags : ["notes","information","plugin","admin" ]
   license : "GPLv2"
   origin : "source"
 
