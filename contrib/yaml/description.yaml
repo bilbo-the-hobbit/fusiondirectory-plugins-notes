@@ -1,6 +1,6 @@
 information :
   name : "notes"
-  description : "plugings which allow user to add some notes on eache FD object"
+  description : "plugins which allow user to add some notes on each FD object"
   version : "0.1"
   authors : ['antoine.gallavardin@free.fr']
   status : "stable"
@@ -29,8 +29,12 @@ content :
   ldapAttributeList : ['fdNotes']
   fileList :
   - './admin/systems/notes/class_notes.inc'
-  - './locale/en/fusiondirectory.po'
-  - './locale/fr/fusiondirectory.po'
-  - './contrib/openldap/notes-fd.schema'
-  - './html/themes/breezy/icons/16/apps/notes.png'
+  - './LICENSE'
+  - './example.png'
+  - './README.md'
   - './html/themes/breezy/icons/48/apps/notes.png'
+  - './html/themes/breezy/icons/16/apps/notes.png'
+  - './locale/fr/fusiondirectory.po'
+  - './locale/en/fusiondirectory.po'
+  - './contrib/yaml/description.yaml'
+  - './contrib/openldap/notes-fd.schema'
