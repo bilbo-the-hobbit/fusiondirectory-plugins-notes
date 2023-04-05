@@ -5,9 +5,9 @@ information :
   authors : ['antoine.gallavardin@free.fr']
   status : "stable"
   screenshotUrl:
-   - https://github.com/gallak/fusiondirectory-plugins-notes/wiki/screenshot1.png
-  logoUrl : https://github.com/gallak/fusiondirectory-plugins-notes/wiki/logo.png
-  tags : ["notes","information","plugin","admin" ]
+   - https://raw.githubusercontent.com/gallak/fusiondirectory-plugins-notes/master/example.png
+  logoUrl : https://raw.githubusercontent.com/gallak/fusiondirectory-plugins-notes/master/html/themes/breezy/icons/48/apps/notes.png
+  tags : ["notes","information","log", "object"]
   license : "GPLv2"
   origin : "source"
 
@@ -16,7 +16,7 @@ support :
   homeUrl : "https://github.com/gallak/fusiondirectory-plugins-notes"
   ticketUrl : "https://github.com/gallak/fusiondirectory-plugins-notes/issues"
   discussionUrl : "https://github.com/gallak/fusiondirectory-plugins-notes/wiki"
-  downloadUrl: "https://github.com/gallak/fusiondirectory-plugins-notes.tgz"
+  downloadUrl: "https://github.com/gallak/fusiondirectory-plugins-notes/archive/refs/heads/master.zip"
   schemaUrl : "https://schemas.fusiondirectory.info/"
 
 requirement:
